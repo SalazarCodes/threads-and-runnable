@@ -1,0 +1,9 @@
+package lab05_threads;
+
+public class Carreritas {
+	
+	public static void main(String[] args) {
+		
+		
+	}
+}

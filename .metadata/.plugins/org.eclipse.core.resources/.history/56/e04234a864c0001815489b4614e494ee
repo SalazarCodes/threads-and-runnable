@@ -1,0 +1,28 @@
+package lab05_threads;
+
+public class ThreadMethod extends Thread{
+	
+	final int velocidad = 27;
+	final int descanso_ms = 123;
+	private int distRecorrida = 0;
+	
+	@Override
+	public void run() {
+		
+		System.out.println("El Koku ha iniciado :v");
+		while(distRecorrida <= 1000) {
+			
+			distRecorrida += velocidad;
+			
+			System.out.println(String.format("Koku ha avanzado:%d en la carrera", distRecorrida));
+			
+			try {
+				Thread.sleep(descanso_ms);
+			}
+			catch(InterruptedException e) {
+				e.printStackTrace();
+			}
+		}
+		System.out.println("Koku ha terminado la carrera");
+	}
+}

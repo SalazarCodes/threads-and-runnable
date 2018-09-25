@@ -1,0 +1,11 @@
+package lab05_threads;
+
+public class MainCorredor {
+	
+	public static void main(String[] args) {
+		
+		Corredor1 co = new Corredor1();
+		co.start(); 
+	} 
+
+}

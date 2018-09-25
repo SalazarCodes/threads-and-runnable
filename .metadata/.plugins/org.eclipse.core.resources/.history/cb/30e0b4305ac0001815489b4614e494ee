@@ -1,0 +1,10 @@
+package lab05_threads;
+
+public class Main {
+	
+	public static void main(String[] args) {
+		
+		Process hilo1 = new Process("Hilo 1");
+		Process hilo2 = new Process("Hilo 2");
+	}
+}

@@ -1,0 +1,11 @@
+package lab05_threads;
+
+public class RunnableMethod implements Runnable{
+
+	@Override
+	public void run() {
+		
+		
+	}
+
+}
